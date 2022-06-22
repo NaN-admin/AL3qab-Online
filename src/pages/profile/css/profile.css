@@ -1,0 +1,79 @@
+.cta-primary {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  animation: show 1.5s;
+  -webkit-animation: show 1.5s;
+}
+@media (min-width: 640px) {
+  .cta-primary {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.cta-primary .cta-container {
+  max-width: 36rem;
+}
+.cta-primary .cta-container .cta-details {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.cta-primary .cta-container .cta-details h3 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #e9b400;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .cta-primary .cta-container .cta-details h3 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+.cta-primary .cta-container .cta-details p {
+  color: #fff;
+  line-height: 1.625;
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+}
+.cta-primary .cta-container .cta-btn {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: #e81b1b;
+  background-color: #eef2ff;
+  font-weight: 500;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none !important;
+}
+.cta-primary .cta-container .cta-btn svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.25rem;
+  transition-duration: 150ms;
+}
+.cta-primary .cta-container .cta-btn:hover svg {
+  transform: translateX(2px) ;
+  -webkit-transform: translateX(2px) ;
+  -moz-transform: translateX(2px) ;
+  -ms-transform: translateX(2px) ;
+  -o-transform: translateX(2px) ;
+}
+.container-info-profile {
+  display: flex;
+  gap: 10px;
+  flex-flow: column wrap;
+}
+.profile-logo {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 100px;
+}
+.profile-header {
+  display: flex;
+  gap: 100px;
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "username": "TheStranger",
+    "email": "admin@gmail.com",
+    "password": "12345678admin",
+    "id": "1",
+    "role": "مسؤول",
+    "dateOfLogin": "2000 years BC",
+    "image": "https://www9.0zz0.com/2022/06/20/14/723922189.jpg"
+  },
+  {
+    "username": "test",
+    "email": "test@gmail.com",
+    "password": "12345678",
+    "id": "2",
+    "role": "عضو",
+    "dateOfLogin": "2022-6-11",
+    "image": "https://www5.0zz0.com/2022/06/21/16/664205594.jpeg"
+  },
+  {
+    "username": "Mohammed",
+    "email": "Mohammed@gmail.com",
+    "password": "ImMohammed",
+    "id": "3",
+    "role": "عضو",
+    "dateOfLogin": "2022-6-11",
+    "image": "https://www5.0zz0.com/2022/06/21/16/937470388.jpg"
+  }
+]
